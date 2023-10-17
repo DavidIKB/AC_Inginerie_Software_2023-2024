@@ -1,0 +1,25 @@
+package com.solid.s.good;
+
+public class GoodEmployee {
+    private String name;
+    private int hoursWorked;
+    private String status;
+
+    public GoodEmployee(String name, int hoursWorked, String status) {
+        this.name = name;
+        this.hoursWorked = hoursWorked;
+        this.status = status;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getHoursWorked() {
+        return hoursWorked;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+}
